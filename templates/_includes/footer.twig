@@ -1,0 +1,73 @@
+{% from "_macros/elements" import facebookLogo, instagramLogo, linkedinLogo %}
+
+{% set heading = siteSettings.footerHeading ?? "Get Connected" %}
+{% set description = siteSettings.footerDescription ?? false %}
+
+{% set heading2 = siteSettings.footerHeading2 ?? "Get Connected" %}
+{% set description2 = siteSettings.footerDescription2 ?? false %}
+
+{% set address = siteSettings.businessAddress ?? false %}
+{% set phone = siteSettings.businessPhoneNumber ?? false %}
+{% set socials = siteSettings.businessSocials ?? false %}
+
+<footer id="page-footer" data-bg="dark">
+    <div class="container">
+        <div class="inner">
+            <div class="row-contact-social">
+                <div class="column-contact">
+                    {% if heading %}
+                        <h4>{{heading2}}</h4>
+                    {% endif %}
+                    {% if description %}
+                        <p>{{description2|nl2br}}</p>
+                    {% endif %}
+                    <div class="contact-details">
+                        {% if address %}
+                            <div class="address-field">
+                                <span>Address:</span>
+                                <span>{{address|nl2br}}</span>
+                            </div>
+                        {% endif %}
+                        {% if phone %}
+                            <div class="phone-field">
+                                <span>Phone:</span>
+                                <span><a href="tel:{{phone}}" target="_blank">{{phone}}</a></span>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="column-social">
+                    {% if heading %}
+                        <h4>{{heading}}</h4>
+                    {% endif %}
+                    {% if description %}
+                        <p>{{description|nl2br}}</p>
+                    {% endif %}
+                    {% if socials|length > 0 %}
+                        <div class="socials">
+                            <ul>
+                                {% for social in socials %}
+                                    <li>
+                                        <a href="{{social.linkTo}}" target="_blank">
+                                            {% switch social.socialMediaType %}
+                                                {% case "facebook" %}
+                                                    {{facebookLogo()}}
+                                                {% case "instagram" %}
+                                                    {{instagramLogo()}}
+                                                {% case "linkedin" %}
+                                                    {{linkedinLogo()}}
+                                            {% endswitch %}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row-copyright">
+                {{ 'now' | date('Y') }}&nbsp;&copy; Jb Interior Liners Limited.
+            </div>
+        </div>
+    </div>
+</footer>

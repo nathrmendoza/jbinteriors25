@@ -1,0 +1,19 @@
+columnSuffix: ygkpxuva
+contentColumnType: text
+fieldGroup: bf273aa4-de6e-4791-8ca5-57f2616fe1f8 # Common
+handle: textType1Description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

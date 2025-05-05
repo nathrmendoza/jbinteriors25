@@ -1,0 +1,132 @@
+fieldLayouts:
+  1caea6a8-7715-4a55-a001-8e775edbd062:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e9328d6d-2a11-45f6-bfc1-effd2f1cc265 # Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54e67e62-f5a2-4637-a21c-377c830c1bbb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: 8f0b43e5-8a5a-4f0d-bf82-5c3508f3d7a8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: 'Contact column'
+            type: craft\fieldlayoutelements\Heading
+            uid: 3d41b6df-0320-4626-8d3e-2bc168c0260f
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 6b0d39bb-34b6-456b-b86f-23f7a4232fa0 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e816355c-b32f-4621-b18e-44c1be5b58bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 802a9d4d-8425-4ba5-8dd2-27da641af11e # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: adbbc707-811f-4dd1-846e-e734f219059b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            heading: 'Socials column'
+            type: craft\fieldlayoutelements\Heading
+            uid: ad9fbd26-e644-4d6d-9aa1-578c7c34e05e
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 21878aec-9837-4607-93d5-0c4edda6af63 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d63cb915-04c9-48a0-abdc-9e84fd0b0308
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f4f7e8a1-9987-4f84-a92f-ecf80557d6f2 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd22670b-d167-4dc3-ab47-e5e80d30992e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Footer
+        uid: 15c251f8-159e-4ecb-ac7c-a28c17018d14
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 115489f1-b0c2-4fbc-a289-d6472e908e95 # Business address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8dc38d72-8d47-42db-906b-90f89afa7388
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cce8bde6-9d4e-4ec9-bd7d-fdeccb93256d # Business phone number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c02a5c59-8191-46d4-946c-fa7f1875b6ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1aa3f56d-0e79-4a95-abd0-a84bd0983e97 # Business socials
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36dbaeea-643e-478b-a0aa-3c159196eba3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contact
+        uid: 8c8911ae-1ca6-4d37-8b61-5706a1a61181
+        userCondition: null
+handle: siteSettings
+name: 'Site Settings'
+sortOrder: 1

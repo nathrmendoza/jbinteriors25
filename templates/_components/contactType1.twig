@@ -1,0 +1,30 @@
+{% set heading = entry.contactType1Heading ?? false %}
+{% set description = entry.contactType1Description ?? false %}
+
+<section class="contactType1" data-section-id="enquire">
+    <div class="container">
+        <div class="inner">
+            <div class="top-text" data-sal="slide-up" data-sal-duration="1200">
+            {% if heading %}
+                <h2>{{heading}}</h2>
+            {% endif %}
+            {% if description %}
+                <p>{{description|nl2br}}</p>
+            {% endif %}
+            </div>
+            
+            <div class="form-wrapper" data-sal="slide-up" data-sal-duration="1200">
+                {{freeform.form('contactForm').render({
+                    attributes: {
+                        id: 'contactForm'
+                    },
+                    buttons: {
+                        attributes: {
+                            submit: { class: 'btn' }
+                        }
+                    }
+                })}}
+            </div>
+        </div>
+    </div>
+</section>

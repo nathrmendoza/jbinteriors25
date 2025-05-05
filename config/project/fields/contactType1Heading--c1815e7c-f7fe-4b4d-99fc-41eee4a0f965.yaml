@@ -1,0 +1,19 @@
+columnSuffix: wxbmlqoy
+contentColumnType: text
+fieldGroup: bf273aa4-de6e-4791-8ca5-57f2616fe1f8 # Common
+handle: contactType1Heading
+instructions: null
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

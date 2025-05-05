@@ -1,0 +1,37 @@
+
+{% set heroSlides = entry.heroImageSlides|length > 0 ? entry.heroImageSlides : false %}
+
+{% if heroSlides %}
+<section class="heroType1" data-section-id="hero">
+    <div class="container-full">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                {% for slide in heroSlides %}
+                    <div class="swiper-slide hero-slide">
+                        {% if slide.image|length > 0 %}
+                            <div class="image-container jarallax">
+                                <img class="jarallax-img" src="{{slide.image.one().url}}" alt="{{slide.image.one().alt}}">
+                            </div>
+                        {% endif %}
+                        <div class="container">
+                            <div class="inner">
+                                {% if slide.heading or slide.description %}
+                                <div class="text-content">
+                                    {% if slide.heading %}
+                                    <h1 data-sal="slide-up" data-sal-duration="800">{{slide.heading|nl2br}}</h1>
+                                    {% endif %}
+                                    {% if slide.description %}
+                                    <p data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">{{slide.description|nl2br}}</p>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,27 @@
+{% set menu = siteSettings.headerMenu ?? false %}
+
+{% from "_macros/elements" import mainLogo %}
+<header id="page-header" class="at-top">
+    <div class="container">
+        <div class="inner">
+            <div class="logo-wrapper">
+                <a href="/?scroll=hero">
+                    {{mainLogo()}}
+                </a>
+            </div>
+            {% if menu|length > 0 %}
+            <nav class="navbar hdr-menu">
+                <ul>
+                    {% for m in menu %}
+                        <li>
+                            <a href="/{{m.linkTo}}">
+                                {{m.customText}}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            {% endif %}
+        </div>
+    </div>
+</header>

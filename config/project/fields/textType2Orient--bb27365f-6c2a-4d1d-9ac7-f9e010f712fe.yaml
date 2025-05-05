@@ -1,0 +1,35 @@
+columnSuffix: qrjqhaha
+contentColumnType: string(11)
+fieldGroup: bf273aa4-de6e-4791-8ca5-57f2616fe1f8 # Common
+handle: textType2Orient
+instructions: null
+name: Orient
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Image on the left'
+        -
+          - value
+          - image-left
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Image on the right'
+        -
+          - value
+          - image-right
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

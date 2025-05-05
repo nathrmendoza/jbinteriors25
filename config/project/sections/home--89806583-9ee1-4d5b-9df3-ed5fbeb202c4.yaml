@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  0cef07fb-7614-41fa-a4af-b543d5ed938f: # JB Interior Liners
+    enabledByDefault: true
+    hasUrls: true
+    template: _index.twig
+    uriFormat: __home__
+type: single

@@ -1,0 +1,83 @@
+dateModified: 1746406001
+email:
+  fromEmail: example@email.com
+  fromName: 'JB Interior Liners'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: /assets/images
+meta:
+  __names__:
+    0cef07fb-7614-41fa-a4af-b543d5ed938f: 'JB Interior Liners' # JB Interior Liners
+    1aa3f56d-0e79-4a95-abd0-a84bd0983e97: 'Business socials' # Business socials
+    2c801b7e-9fb9-44c5-be41-884d57c48395: Slide # Slide
+    4f306b72-9948-4ea5-b03e-368d175231bb: Description # Description
+    4f572d7e-a6ec-45e9-872b-045c1bcf5b28: Description # Description
+    6b0d39bb-34b6-456b-b86f-23f7a4232fa0: Heading # Heading
+    6c3db110-6590-43e5-a052-a8b8cbe7e986: Description # Description
+    6f44f699-d05e-4986-9f82-3766750cb2be: Image # Image
+    6ffd37c2-53cf-41ac-85dc-b25e91472141: Subheading # Subheading
+    8b0facb8-ec99-43c4-8bed-7c1f3c6bdfe6: 'Menu Item' # Menu Item
+    8f4f5840-da22-468a-b487-8bf4e6c6f4e8: Link # Link
+    9a870647-47f5-4595-8d4a-cd765c787c39: Heading # Heading
+    9e90dae3-f7b5-4206-9422-5ae1d3c684ba: Heading # Heading
+    13eca759-2004-459f-92ae-51e5928c90ff: Images # Images
+    29e63a64-30f4-4943-b9a8-77938bc50762: Description # Description
+    31cc287e-46e7-4de9-98b8-e3534daa5bf3: Link # Link
+    47e7a0fd-a264-4e5c-8fa1-def5cb1aa876: Social # Social
+    50ac26f6-2ffb-473f-bd37-c4f36429426a: Description # Description
+    51dd4c4e-e4f0-46ba-af94-da16fc7ade8a: Image # Image
+    64f7d701-5410-462f-8d58-5d53e7ecb45e: 'Client name' # Client name
+    303ebb12-6425-4af8-bcd5-71febb3b231b: Subheading # Subheading
+    358c98a3-71d6-433f-ae48-0536b5252501: Heading # Heading
+    769af350-7abf-4f94-9080-ae23cfb9288a: 'Social media type' # Social media type
+    802a9d4d-8425-4ba5-8dd2-27da641af11e: Description # Description
+    1082bf3b-81ac-41ed-9bc6-63c7ffea1cff: Description # Description
+    21878aec-9837-4607-93d5-0c4edda6af63: Heading # Heading
+    115489f1-b0c2-4fbc-a289-d6472e908e95: 'Business address' # Business address
+    0120620c-4949-4f7e-92f3-4e86bc7c7184: Heading # Heading
+    69026618-283a-4a0d-aa7e-6bf645622c7b: Heading # Heading
+    89806583-9ee1-4d5b-9df3-ed5fbeb202c4: Home # Home
+    a03c3336-a9f4-48a3-bd3e-af345b791d36: 'Site Settings' # Site Settings
+    ae2c7a5e-f524-4937-9dc6-6ad219f6cf28: Testimonials # Testimonials
+    b5eef23d-9db8-46b6-b172-807af41efd52: Heading # Heading
+    b45ad958-2039-4669-b3fb-0caa8791afd6: Subheading # Subheading
+    bb27365f-6c2a-4d1d-9ac7-f9e010f712fe: Orient # Orient
+    bd13c810-d4f6-4d05-b433-7b1a29ac7640: Images # Images
+    bd748228-8e1a-451f-a05d-71516c3638ec: Rating # Rating
+    bf273aa4-de6e-4791-8ca5-57f2616fe1f8: Common # Common
+    c1815e7c-f7fe-4b4d-99fc-41eee4a0f965: Heading # Heading
+    c9500805-a2d1-4619-a541-4aecd2ea40dd: 'Image Slides' # Image Slides
+    cce8bde6-9d4e-4ec9-bd7d-fdeccb93256d: 'Business phone number' # Business phone number
+    d04f44ba-961e-4e0f-8024-47f0be71a0b5: Heading # Heading
+    e4ebaae6-73fe-4506-a5ca-2f478d44508e: Description # Description
+    e7f2ee64-604d-4eac-bfec-b064e11ef272: Home # Home
+    e9a1fbdb-2d62-418d-aa19-a8235d365d87: 'JB Interior Liners' # JB Interior Liners
+    e9328d6d-2a11-45f6-bfc1-effd2f1cc265: Menu # Menu
+    ed6161b1-788d-4388-98f5-97648ef5bc65: Testimonial # Testimonial
+    f4f7e8a1-9987-4f84-a92f-ecf80557d6f2: Description # Description
+    f91f7fc6-04ad-4dbf-a44f-e7d4beb7d5f5: Description # Description
+    f481d0ff-0db5-4a32-aed8-1b717b3447f2: Image # Image
+    f2278ce0-d485-4576-b3d8-fb70f3f81116: 'Custom Text' # Custom Text
+plugins:
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.4.2
+system:
+  edition: solo
+  live: true
+  name: 'JB Interior Liners'
+  schemaVersion: 4.15.0.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

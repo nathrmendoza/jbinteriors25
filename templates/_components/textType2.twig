@@ -1,0 +1,37 @@
+{% set image = entry.textType2Image.one() ?? false %}
+{% set subHeading = entry.textType2SubHeading ?? false %}
+{% set heading = entry.textType2Heading ?? false %}
+{% set description = entry.textType2Description ?? false %}
+{% set orient = entry.textType2Orient ?? 'image-right' %}
+
+<section class="textType2" data-section-id="certification" data-bg="dark">
+    <div class="container">
+        <div class="inner">
+            <div class="row {{orient}}">
+                {% if subHeading or heading or description %}
+                <div class="column column-text" data-sal="slide-up" data-sal-duration="1200">
+                    <div class="text-content">
+                    {% if subHeading %}
+                        <h5>{{subHeading}}</h5>
+                    {% endif %}
+                    {% if heading %}
+                        <h2>{{heading}}</h2>
+                    {% endif %}
+                    {% if description %}
+                        <p>{{description|nl2br}}</p>
+                    {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if image %}
+                <div class="column column-image" data-sal="slide-up" data-sal-duration="1200">
+                    <div class="image-container jarallax">
+                        <img class="jarallax-img" src="{{image.url}}" alt="{{image.alt}}">
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

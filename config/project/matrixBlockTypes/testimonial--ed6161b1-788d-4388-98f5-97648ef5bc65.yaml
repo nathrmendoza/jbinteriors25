@@ -1,0 +1,143 @@
+field: ae2c7a5e-f524-4937-9dc6-6ad219f6cf28 # Testimonials
+fieldLayouts:
+  4c6f25b1-33c2-44b0-be23-56b6f7b54a4f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 64f7d701-5410-462f-8d58-5d53e7ecb45e # Client name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3020b192-0454-4ac7-a4a5-547c1558204e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 0120620c-4949-4f7e-92f3-4e86bc7c7184 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42c92ee8-ce34-4a47-b3fe-b87f8fc88676
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 6c3db110-6590-43e5-a052-a8b8cbe7e986 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ccaeb5c0-b7bf-4e62-8f50-e2715345d7d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bd748228-8e1a-451f-a05d-71516c3638ec # Rating
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f047eb4-0f57-4152-abaf-6938b92574bd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 88c0c225-5cdb-4a26-91c0-24e2507ccabd
+        userCondition: null
+fields:
+  6c3db110-6590-43e5-a052-a8b8cbe7e986: # Description
+    columnSuffix: yookoyiw
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  64f7d701-5410-462f-8d58-5d53e7ecb45e: # Client name
+    columnSuffix: zmjhcigk
+    contentColumnType: text
+    fieldGroup: null
+    handle: clientName
+    instructions: null
+    name: 'Client name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0120620c-4949-4f7e-92f3-4e86bc7c7184: # Heading
+    columnSuffix: erkdijpo
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bd748228-8e1a-451f-a05d-71516c3638ec: # Rating
+    columnSuffix: hdmzgsig
+    contentColumnType: smallint(1)
+    fieldGroup: null
+    handle: rating
+    instructions: 'Optional star rating, if the client had rated the job. Leave as 0 if none otherwise rate 1 - 5'
+    name: Rating
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 0
+      max: 5
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+handle: testimonial
+name: Testimonial
+sortOrder: 1

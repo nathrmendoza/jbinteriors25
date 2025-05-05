@@ -1,0 +1,78 @@
+field: e9328d6d-2a11-45f6-bfc1-effd2f1cc265 # Menu
+fieldLayouts:
+  c1bddcf8-01a7-4cbb-b9f3-7a8275fcccb3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31cc287e-46e7-4de9-98b8-e3534daa5bf3 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eeff99f2-0645-4790-a08a-852115b857dd
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: f2278ce0-d485-4576-b3d8-fb70f3f81116 # Custom Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96093e11-4a0a-4ead-87c2-44b366c2a518
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: f3bf51dc-b99f-42c5-afe7-4617b5f68b8e
+        userCondition: null
+fields:
+  31cc287e-46e7-4de9-98b8-e3534daa5bf3: # Link
+    columnSuffix: vguenrpp
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkTo
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f2278ce0-d485-4576-b3d8-fb70f3f81116: # Custom Text
+    columnSuffix: bsdkyifu
+    contentColumnType: text
+    fieldGroup: null
+    handle: customText
+    instructions: null
+    name: 'Custom Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: menuItem
+name: 'Menu Item'
+sortOrder: 1

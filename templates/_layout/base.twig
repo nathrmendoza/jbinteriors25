@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>JB Interior Liners Limited</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+
+    {# FONTS #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="/dist/main.min.css" as="style">
+    <link rel="stylesheet" href="/dist/main.min.css">
+</head>
+<body class="ltr">
+<div id="page-container">
+    {% include "_includes/header" %}
+    <main>
+    {% block content %}{% endblock %}
+    </main>
+    {% include "_includes/footer" %}
+</div>
+
+<script src="/dist/main.min.js"></script>
+</body>
+</html>

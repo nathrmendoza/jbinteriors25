@@ -1,0 +1,39 @@
+body, p, li, svg text, label, input {
+    font-family: var(--text-jost)!important;
+    letter-spacing: 0.025rem!important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--text-play);
+}
+
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}

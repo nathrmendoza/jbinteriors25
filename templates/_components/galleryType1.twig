@@ -1,0 +1,42 @@
+{% set images = entry.galleryType1Images.all() ?? false %}
+{% set subHeading = entry.galleryType1SubHeading ?? false %}
+{% set heading = entry.galleryType1Heading ?? false %}
+{% set description = entry.galleryType1Description ?? false %}
+
+<section class="galleryType1" data-section-id="gallery">
+    {% if subHeading or heading or description %}
+    <div class="container">
+        <div class="inner" data-sal="slide-up" data-sal-duration="1200">
+            <div class="text-content">
+                {% if subHeading %}
+                    <h5>{{subHeading}}</h5>
+                {% endif %}
+                {% if heading %}
+                    <h2>{{heading}}</h2>
+                {% endif %}
+                {% if description %}
+                    <p>{{description|nl2br}}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if images %}
+        <div class="container-full">
+            <div class="inner" data-sal="slide-up" data-sal-duration="1200">
+                <div class="swiper gallery-slider">
+                <div class="swiper-wrapper">
+                    {% for image in images %}
+                        <div class="swiper-slide gallery-slide">
+                            <div class="image-container">    
+                            <img src="{{image.url}}" alt="{{image.alt}}">
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</section>
