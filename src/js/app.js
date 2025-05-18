@@ -34,6 +34,7 @@ $(document).ready(function() {
             slidesperView: 1,
             loop: true,
             speed: 1600,
+            effect: "fade",
             autoplay: {
                 delay: 6000
             },
@@ -41,38 +42,48 @@ $(document).ready(function() {
         })
     })
 
-    console.log($heroSlider);
-
     var $gallerySlider = [];
     var $galleryLightBox = [];
 
     $('.gallery-slider').each(function(index) {
         $gallerySlider[index] = new Swiper($(this)[0], {
-            slidesPerView: 3,
             centeredSlides: true,
-            spaceBetween: 32,
             speed: 1200,
             loop: true,
+            slidesPerView: 1.25,
+            spaceBetween: 16,
             autoplay: {
                 delay: 3000
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 32,
+                }
             }
         })
-
-        // $galleryLightBox[index] = new PhotoSwipeLightbox({
-        //     gallery: $(this)[0],
-        // });
-        // $galleryLightBox[index].init();
     })
 
 
     //header
     headerDynamic();
+    mobileNav();
 
     //section scroll
     pageLoadScroll();
     anchorScroll();
 
 })
+
+function mobileNav() {
+    var $header = $('#page-header');
+    var $dropdown = $('.mob-dropdown');
+    $('[data-mobile-menu-trigger]').click(function() {
+        $dropdown.stop().slideToggle(400);
+        if ($header.hasClass('at-top')) 
+            $header.toggleClass('sticky sticky-show');
+    })
+}
 
 function headerDynamic() {
     var lastScrollPos = $(window).scrollTop();
@@ -133,6 +144,9 @@ function scrollTo(sectionId) {
 }
 
 function anchorScroll() {
+    var $header = $('#page-header');
+    var $dropdown = $('.mob-dropdown');
+
     $('a[href*="?scroll="]').click(function(e) {
         e.preventDefault();
 
@@ -142,7 +156,10 @@ function anchorScroll() {
         if (match && match[1]) {
             var sectionId = match[1];
             scrollTo(sectionId);
+            
+            $dropdown.stop().slideUp(400);
         }
+
     });
 }
 

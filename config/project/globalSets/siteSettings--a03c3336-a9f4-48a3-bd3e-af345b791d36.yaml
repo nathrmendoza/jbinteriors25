@@ -54,6 +54,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: b4105b69-45c4-4f4d-a330-e4308d0a8cc4 # Show contact
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5b356f7-0640-47a1-a0c1-411d9175adfa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             heading: 'Socials column'
             type: craft\fieldlayoutelements\Heading
             uid: ad9fbd26-e644-4d6d-9aa1-578c7c34e05e

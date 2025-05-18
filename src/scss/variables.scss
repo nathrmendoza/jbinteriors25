@@ -1,7 +1,13 @@
 :root {
-    --section-padding: 120px;
-    --section-padding-md: 90px;
-    --section-padding-sm: 60px;
+    --section-padding: 60px;
+    --section-padding-md: 40px;
+    --section-padding-sm: 30px;
+
+    @media (min-width: 1281px) {
+        --section-padding: 120px;
+        --section-padding-md: 90px;
+        --section-padding-sm: 60px;
+    }
 
     --row-padding: 0 30px;
     --row-padding-md: 0 20px;
@@ -12,4 +18,5 @@
 
     --text-jost: 'Jost', sans-serif;
     --text-play: 'Playfair Display', serif;
+    
 }

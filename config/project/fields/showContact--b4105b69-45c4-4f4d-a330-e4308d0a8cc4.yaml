@@ -1,0 +1,14 @@
+columnSuffix: yryxrlnk
+contentColumnType: boolean
+fieldGroup: bf273aa4-de6e-4791-8ca5-57f2616fe1f8 # Common
+handle: showContact
+instructions: null
+name: 'Show contact'
+searchable: false
+settings:
+  default: true
+  offLabel: DISABLE
+  onLabel: ENABLE
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
