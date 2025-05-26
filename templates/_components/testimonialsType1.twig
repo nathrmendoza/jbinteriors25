@@ -4,6 +4,8 @@
 {% set description = entry.testimonialsType1Description ?? false %}
 {% set testimonials = entry.testimonials|length ? entry.testimonials : false %}
 
+{% if testimonials %}
+
 <section class="testimonialsType1" data-section-id="testimonials" data-bg="dark">
     <div class="container">
         <div class="inner">
@@ -48,3 +50,4 @@
         </div>
     </div>
 </section>
+{% endif %}

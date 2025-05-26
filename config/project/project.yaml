@@ -1,4 +1,4 @@
-dateModified: 1747537957
+dateModified: 1748229870
 email:
   fromEmail: example@email.com
   fromName: 'JB Interior Liners'
@@ -22,6 +22,7 @@ meta:
     6c3db110-6590-43e5-a052-a8b8cbe7e986: Description # Description
     6f44f699-d05e-4986-9f82-3766750cb2be: Image # Image
     6ffd37c2-53cf-41ac-85dc-b25e91472141: Subheading # Subheading
+    7ce4df5b-13d7-4a0a-93dc-8337d854932c: 'Business email' # Business email
     8b0facb8-ec99-43c4-8bed-7c1f3c6bdfe6: 'Menu Item' # Menu Item
     8f4f5840-da22-468a-b487-8bf4e6c6f4e8: Link # Link
     9a870647-47f5-4595-8d4a-cd765c787c39: Heading # Heading

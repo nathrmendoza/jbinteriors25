@@ -102,6 +102,18 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: 7ce4df5b-13d7-4a0a-93dc-8337d854932c # Business email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fe63a60-9559-47ec-9760-924e7d2b5122
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 115489f1-b0c2-4fbc-a289-d6472e908e95 # Business address
             instructions: null
             label: null

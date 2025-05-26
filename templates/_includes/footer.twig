@@ -8,6 +8,7 @@
 
 {% set showContact = siteSettings.showContact %}
 {% set address = siteSettings.businessAddress ?? false %}
+{% set email = siteSettings.businessEmail ?? false %}
 {% set phone = siteSettings.businessPhoneNumber ?? false %}
 {% set socials = siteSettings.businessSocials ?? false %}
 
@@ -25,16 +26,22 @@
                         <p>{{description2|nl2br}}</p>
                     {% endif %}
                     <div class="contact-details">
-                        {% if address %}
-                            <div class="address-field">
-                                <span>Address:</span>
-                                <span>{{address|nl2br}}</span>
+                        {% if email %}
+                            <div class="cd-field email-field">
+                                <span>Email:</span>
+                                <span><a href="mailto:{{email}}" target="_blank">{{email|nl2br}}</a></span>
                             </div>
                         {% endif %}
                         {% if phone %}
-                            <div class="phone-field">
+                            <div class="cd-field phone-field">
                                 <span>Phone:</span>
                                 <span><a href="tel:{{phone}}" target="_blank">{{phone}}</a></span>
+                            </div>
+                        {% endif %}
+                        {% if address %}
+                            <div class="cd-field address-field">
+                                <span>Address:</span>
+                                <span>{{address|nl2br}}</span>
                             </div>
                         {% endif %}
                     </div>
