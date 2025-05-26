@@ -151,6 +151,48 @@ fieldLayouts:
         name: Contact
         uid: 8c8911ae-1ca6-4d37-8b61-5706a1a61181
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 07030b10-f617-4cf7-8436-d36a79168668 # SEO title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ff6cb5a-749b-408d-a0b8-8cf6e1ced809
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 04c41d64-4956-4663-8292-47c3fec1752c # SEO description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81f7cfff-4d57-4168-8932-b5c6f6e13a6e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d574c709-e180-4dac-ae2c-e1b504f5eb08 # SEO image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59aec2ef-2350-4903-82cb-8cf952b9b70d
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 8f76121c-6635-4e58-b41c-1782f7ebd868
+        userCondition: null
 handle: siteSettings
 name: 'Site Settings'
 sortOrder: 1

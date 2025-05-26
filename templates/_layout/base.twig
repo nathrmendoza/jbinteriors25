@@ -6,12 +6,58 @@
     <title>JB Interior Liners Limited</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="referrer" content="origin-when-cross-origin" />
+    
+    {# FAVICONS #}
+    <link rel="apple-touch-icon" sizes="57x57" href="/dist/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/dist/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/dist/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/dist/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/dist/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/dist/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/dist/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/dist/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/dist/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/dist/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dist/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/dist/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dist/images/favicon-16x16.png">
+    <link rel="manifest" href="/dist/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/dist/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    {% set seoTitle = siteSettings.seoTitle ?? 'JB Interior Liners' %}
+    {% set seoDescription = siteSettings.seoDescription ?? 'Delivering exceptional interior lining solutions with precision and craftsmanship that exceed expectations.' %}
+    {% set seoImage = siteSettings.seoImage.one() ?? false %}
+
+    <meta name="description" content="{{seoDescription}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jbinteriorliners.co.nz/">
+    <meta property="og:title" content="{{seoTitle}}">
+    <meta property="og:description" content="{{seoDescription}}">
+    {% if seoImage %}
+    <meta property="og:image" content="{{seoImage.url}}">
+    {% endif %}
+    <meta property="og:site_name" content="JB Interior Liners">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.jbinteriorliners.co.nz/">
+    <meta name="twitter:title" content="{{seoTitle}}">
+    <meta name="twitter:description" content="{{seoDescription}}">
+    {% if seoImage %}
+    <meta name="twitter:image" content="{{seoImage.url}}">
+    {% endif %}
 
     {# FONTS #}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    
+
+    {# STYLES #}
     <link rel="preload" href="/dist/main.min.css" as="style">
     <link rel="stylesheet" href="/dist/main.min.css">
 </head>

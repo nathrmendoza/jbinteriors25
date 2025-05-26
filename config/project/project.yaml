@@ -1,4 +1,4 @@
-dateModified: 1748229870
+dateModified: 1748230921
 email:
   fromEmail: example@email.com
   fromName: 'JB Interior Liners'
@@ -16,6 +16,7 @@ meta:
     0cef07fb-7614-41fa-a4af-b543d5ed938f: 'JB Interior Liners' # JB Interior Liners
     1aa3f56d-0e79-4a95-abd0-a84bd0983e97: 'Business socials' # Business socials
     2c801b7e-9fb9-44c5-be41-884d57c48395: Slide # Slide
+    04c41d64-4956-4663-8292-47c3fec1752c: 'SEO description' # SEO description
     4f306b72-9948-4ea5-b03e-368d175231bb: Description # Description
     4f572d7e-a6ec-45e9-872b-045c1bcf5b28: Description # Description
     6b0d39bb-34b6-456b-b86f-23f7a4232fa0: Heading # Heading
@@ -39,6 +40,7 @@ meta:
     769af350-7abf-4f94-9080-ae23cfb9288a: 'Social media type' # Social media type
     802a9d4d-8425-4ba5-8dd2-27da641af11e: Description # Description
     1082bf3b-81ac-41ed-9bc6-63c7ffea1cff: Description # Description
+    07030b10-f617-4cf7-8436-d36a79168668: 'SEO title' # SEO title
     21878aec-9837-4607-93d5-0c4edda6af63: Heading # Heading
     115489f1-b0c2-4fbc-a289-d6472e908e95: 'Business address' # Business address
     0120620c-4949-4f7e-92f3-4e86bc7c7184: Heading # Heading
@@ -57,6 +59,7 @@ meta:
     c9500805-a2d1-4619-a541-4aecd2ea40dd: 'Image Slides' # Image Slides
     cce8bde6-9d4e-4ec9-bd7d-fdeccb93256d: 'Business phone number' # Business phone number
     d04f44ba-961e-4e0f-8024-47f0be71a0b5: Heading # Heading
+    d574c709-e180-4dac-ae2c-e1b504f5eb08: 'SEO image' # SEO image
     e4ebaae6-73fe-4506-a5ca-2f478d44508e: Description # Description
     e7f2ee64-604d-4eac-bfec-b064e11ef272: Home # Home
     e9a1fbdb-2d62-418d-aa19-a8235d365d87: 'JB Interior Liners' # JB Interior Liners
